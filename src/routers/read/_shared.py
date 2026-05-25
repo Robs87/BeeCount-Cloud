@@ -24,7 +24,7 @@ from sqlalchemy.orm import Session
 
 from ...config import get_settings
 from ...database import get_db
-from ...deps import get_current_user, require_any_scopes, require_read_api_scopes, require_scopes
+from ...deps import get_current_user, require_read_api_scopes
 from ...ledger_access import (
     get_accessible_ledger_by_external_id,
 )
@@ -552,8 +552,7 @@ __all__ = [
     'get_settings',
     'get_db',
     'get_current_user',
-    'require_any_scopes',
-    'require_scopes',
+    'require_read_api_scopes',
     'get_accessible_ledger_by_external_id',
     'AttachmentFile',
     'Ledger',
