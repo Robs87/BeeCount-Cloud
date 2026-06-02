@@ -627,6 +627,8 @@ const en = {
   'accounts.bankcard.balance': 'Balance',
   'accounts.bankcard.income': 'Income',
   'accounts.bankcard.expense': 'Expense',
+  'accounts.bankcard.creditUsed': 'Used',
+  'accounts.bankcard.creditAvailable': 'Available',
   'accounts.bankcard.balanceLabel': 'Balance',
   'accounts.bankcard.owedLabel': 'Owed',
 
@@ -719,7 +721,7 @@ const en = {
   'home.trendBars.income': 'Income',
   'home.trendBars.expense': 'Expense',
   'home.trendBars.balance': 'Net',
-  'home.trendBars.10kUnit': 'k',
+  'common.unit.10k': 'k',
 
   'home.assetComp.title': 'Asset composition',
   'home.assetComp.empty': 'No accounts yet',

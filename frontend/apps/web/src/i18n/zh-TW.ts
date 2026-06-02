@@ -626,6 +626,8 @@ const zhTW = {
   'accounts.bankcard.balance': '餘額',
   'accounts.bankcard.income': '收入',
   'accounts.bankcard.expense': '支出',
+  'accounts.bankcard.creditUsed': '已用',
+  'accounts.bankcard.creditAvailable': '可用',
   'accounts.bankcard.balanceLabel': '餘額',
   'accounts.bankcard.owedLabel': '欠款',
 
@@ -718,7 +720,7 @@ const zhTW = {
   'home.trendBars.income': '收入',
   'home.trendBars.expense': '支出',
   'home.trendBars.balance': '淨額',
-  'home.trendBars.10kUnit': '萬',
+  'common.unit.10k': '萬',
 
   'home.assetComp.title': '資產組成',
   'home.assetComp.empty': '暫無帳戶資料',
