@@ -725,10 +725,20 @@ const en = {
   'home.trendBars.balance': 'Net',
   'common.unit.10k': 'k',
 
+  'home.netWorthTrend.title': 'Net Worth Trend',
+  'home.netWorthTrend.net_worth': 'Net Worth',
+  'home.netWorthTrend.assets': 'Total Assets',
+  'home.netWorthTrend.liabilities': 'Total Liabilities',
+  'home.netWorthTrend.empty': 'No net worth data',
+  'home.netWorthTrend.note': 'Historical net worth is the raw sum of each currency, not converted',
+
   'home.assetComp.title': 'Asset composition',
   'home.assetComp.empty': 'No accounts yet',
   'home.assetComp.totalAsset': 'Total assets',
   'home.assetComp.liability': 'Liabilities {value}',
+
+  'accounts.trendOrComposition.trend': 'Trend',
+  'accounts.trendOrComposition.composition': 'Composition',
 
   'overview.hero.netWorth': 'Net worth (assets − liabilities)',
   'overview.hero.scopeIncome': '{scope} income {value}',
@@ -911,6 +921,10 @@ const en = {
   'profile.sync.headerSkin.honeycomb': 'Honeycomb',
   'profile.sync.headerSkin.starry': 'Starry',
   'profile.sync.headerSkin.stripes': 'Stripes',
+  'profile.sync.headerSkin.skyline': 'Skyline',
+  'profile.sync.headerSkin.sakura': 'Sakura',
+  'profile.sync.headerSkin.meteor': 'Meteor',
+  'profile.sync.headerSkin.memphis': 'Memphis',
   'profile.sync.compactAmount': 'Balance display',
   'profile.sync.compactAmount.full': 'Full amount',
   'profile.sync.compactAmount.compact': 'Compact',
@@ -1655,6 +1669,29 @@ const en = {
   'pwa.install.apply': 'Install',
   'pwa.install.never': "Don't ask again",
   'pwa.install.accepted': 'Installed — find "BeeCount" in your dock / home screen',
+
+  // Multi-currency: primary currency setting / exchange rates / asset conversion
+  'settings.primaryCurrency': 'Primary currency',
+  'settings.primaryCurrency.hint': 'Target currency for asset conversion, synced with the app',
+  'settings.primaryCurrency.unset': 'Not set',
+  'rates.title': 'Exchange rates',
+  'rates.refresh': 'Refresh rates',
+  'rates.sourceAuto': 'Auto',
+  'rates.sourceManual': 'Manual',
+  'rates.updatedAt': 'Updated {date}',
+  'rates.notFetched': 'Not available',
+  'rates.edit': 'Edit rate',
+  'rates.resetToAuto': 'Reset to auto',
+  'rates.inverseHint': 'Inverse: 1 {base} ≈ {rate} {quote}',
+  'rates.emptyHint': 'Set different currencies on your accounts and manageable rates will appear here',
+  'rates.disclaimer': 'Source: open exchange-rate data, updated daily. Conversions are for reference only and may differ from your bank’s actual rates.',
+  'accounts.converted.netWorth': 'Net worth (in {currency})',
+  'accounts.converted.footnote': 'Converted at {date} rates',
+  'accounts.converted.missing': '{currencies} not converted',
+  'accounts.converted.toggle': 'Convert to primary currency',
+  'accounts.converted.detail': 'Details',
+  'accounts.converted.detailTitle': 'By-currency breakdown',
+  'accounts.converted.composition': 'Composition (in {currency})',
 } as const
 
 export default en

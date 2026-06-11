@@ -278,11 +278,23 @@ const zhCN = {
   'home.trendBars.balance': '净额',
   'common.unit.10k': '万',
 
+  // NetWorthTrend
+  'home.netWorthTrend.title': '净资产趋势',
+  'home.netWorthTrend.net_worth': '净资产',
+  'home.netWorthTrend.assets': '总资产',
+  'home.netWorthTrend.liabilities': '总负债',
+  'home.netWorthTrend.empty': '暂无净值数据',
+  'home.netWorthTrend.note': '历史净值为各币种原值相加,未折算',
+
   // AssetCompositionDonut
   'home.assetComp.title': '资产构成',
   'home.assetComp.empty': '暂无账户数据',
   'home.assetComp.totalAsset': '总资产',
   'home.assetComp.liability': '负债 {value}',
+
+  // 资产页「走势 / 构成」切换
+  'accounts.trendOrComposition.trend': '走势',
+  'accounts.trendOrComposition.composition': '构成',
 
   // OverviewHero (cross-ledger)
   'overview.hero.netWorth': '净值（资产 - 负债）',
@@ -483,6 +495,10 @@ const zhCN = {
   'profile.sync.headerSkin.honeycomb': '蜂巢',
   'profile.sync.headerSkin.starry': '星河',
   'profile.sync.headerSkin.stripes': '斜纹',
+  'profile.sync.headerSkin.skyline': '城市',
+  'profile.sync.headerSkin.sakura': '樱花',
+  'profile.sync.headerSkin.meteor': '流星',
+  'profile.sync.headerSkin.memphis': '孟菲斯',
   'profile.sync.compactAmount': '余额显示格式',
   'profile.sync.compactAmount.full': '完整金额',
   'profile.sync.compactAmount.compact': '简洁显示',
@@ -1692,6 +1708,29 @@ const zhCN = {
   'pwa.install.apply': '添加',
   'pwa.install.never': '不再提示',
   'pwa.install.accepted': '已安装,可在 dock / 主屏找到「蜜蜂记账」',
+
+  // 多币种:主币种设置 / 汇率管理 / 资产折算
+  'settings.primaryCurrency': '主币种',
+  'settings.primaryCurrency.hint': '资产折算的目标币种,与 App 端同步',
+  'settings.primaryCurrency.unset': '未设置',
+  'rates.title': '汇率管理',
+  'rates.refresh': '刷新汇率',
+  'rates.sourceAuto': '自动',
+  'rates.sourceManual': '手动',
+  'rates.updatedAt': '{date} 更新',
+  'rates.notFetched': '未获取',
+  'rates.edit': '编辑汇率',
+  'rates.resetToAuto': '恢复自动',
+  'rates.inverseHint': '反向参考:1 {base} ≈ {rate} {quote}',
+  'rates.emptyHint': '给账户设置不同币种后,这里会出现可管理的汇率',
+  'rates.disclaimer': '数据来源:开源汇率数据,每日更新;折算仅供参考,可能与银行实际牌价有差异。',
+  'accounts.converted.netWorth': '净资产(折{currency})',
+  'accounts.converted.footnote': '按 {date} 汇率折算',
+  'accounts.converted.missing': '{currencies} 未折算',
+  'accounts.converted.toggle': '按主币种折算',
+  'accounts.converted.detail': '详情',
+  'accounts.converted.detailTitle': '分币种明细',
+  'accounts.converted.composition': '资产构成(折{currency})',
 } as const
 
 export default zhCN

@@ -724,10 +724,21 @@ const zhTW = {
   'home.trendBars.balance': '淨額',
   'common.unit.10k': '萬',
 
+  'home.netWorthTrend.title': '淨資產趨勢',
+  'home.netWorthTrend.net_worth': '淨資產',
+  'home.netWorthTrend.assets': '總資產',
+  'home.netWorthTrend.liabilities': '總負債',
+  'home.netWorthTrend.empty': '暫無淨值資料',
+  'home.netWorthTrend.note': '歷史淨值為各幣種原值相加,未折算',
+
   'home.assetComp.title': '資產組成',
   'home.assetComp.empty': '暫無帳戶資料',
   'home.assetComp.totalAsset': '總資產',
   'home.assetComp.liability': '負債 {value}',
+
+  // 資產頁「走勢 / 組成」切換
+  'accounts.trendOrComposition.trend': '走勢',
+  'accounts.trendOrComposition.composition': '組成',
 
   'overview.hero.netWorth': '淨值（資產 - 負債）',
   'overview.hero.scopeIncome': '{scope}收入 {value}',
@@ -911,6 +922,10 @@ const zhTW = {
   'profile.sync.headerSkin.honeycomb': '蜂巢',
   'profile.sync.headerSkin.starry': '星河',
   'profile.sync.headerSkin.stripes': '斜紋',
+  'profile.sync.headerSkin.skyline': '城市',
+  'profile.sync.headerSkin.sakura': '櫻花',
+  'profile.sync.headerSkin.meteor': '流星',
+  'profile.sync.headerSkin.memphis': '孟菲斯',
   'profile.sync.compactAmount': '餘額顯示格式',
   'profile.sync.compactAmount.full': '完整金額',
   'profile.sync.compactAmount.compact': '簡潔顯示',
@@ -1651,6 +1666,29 @@ const zhTW = {
   'pwa.install.apply': '加入',
   'pwa.install.never': '不再提示',
   'pwa.install.accepted': '已安裝,可在 dock / 主畫面找到「蜜蜂記帳」',
+
+  // 多幣種:主幣種設定 / 匯率管理 / 資產折算
+  'settings.primaryCurrency': '主幣種',
+  'settings.primaryCurrency.hint': '資產折算的目標幣種,與 App 端同步',
+  'settings.primaryCurrency.unset': '未設定',
+  'rates.title': '匯率管理',
+  'rates.refresh': '重新整理匯率',
+  'rates.sourceAuto': '自動',
+  'rates.sourceManual': '手動',
+  'rates.updatedAt': '{date} 更新',
+  'rates.notFetched': '未取得',
+  'rates.edit': '編輯匯率',
+  'rates.resetToAuto': '恢復自動',
+  'rates.inverseHint': '反向參考:1 {base} ≈ {rate} {quote}',
+  'rates.emptyHint': '為帳戶設定不同幣種後,這裡會出現可管理的匯率',
+  'rates.disclaimer': '資料來源:開源匯率資料,每日更新;折算僅供參考,可能與銀行實際牌價有差異。',
+  'accounts.converted.netWorth': '淨資產(折{currency})',
+  'accounts.converted.footnote': '依 {date} 匯率折算',
+  'accounts.converted.missing': '{currencies} 未折算',
+  'accounts.converted.toggle': '按主幣種折算',
+  'accounts.converted.detail': '詳情',
+  'accounts.converted.detailTitle': '分幣種明細',
+  'accounts.converted.composition': '資產構成(折{currency})',
 } as const
 
 export default zhTW
