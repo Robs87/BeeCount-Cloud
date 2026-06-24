@@ -929,6 +929,9 @@ const zhTW = {
   'profile.sync.compactAmount': '餘額顯示格式',
   'profile.sync.compactAmount.full': '完整金額',
   'profile.sync.compactAmount.compact': '簡潔顯示',
+  'profile.sync.noteDisplay': '備註顯示方式',
+  'profile.sync.noteDisplay.category': '分類優先',
+  'profile.sync.noteDisplay.note': '備註優先',
   'profile.sync.showTime': '顯示交易時間',
 
   'calendar.monthLabel': '{year} 年 {month} 月',
@@ -1183,6 +1186,7 @@ const zhTW = {
   'currency.region.middleEast': '西亞 / 中東',
   'currency.region.europe': '歐洲',
   'currency.region.northAmerica': '北美',
+  'currency.region.centralAmericaCaribbean': '中美洲及加勒比',
   'currency.region.southAmerica': '南美',
   'currency.region.oceania': '大洋洲',
   'currency.region.africa': '非洲',
